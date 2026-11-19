@@ -1,72 +1,591 @@
 {
-	"nodes":[
-		{"id":"g-user-research","type":"group","x":0,"y":1300,"width":1400,"height":1540,"color":"6","label":"User research"},
-		{"id":"g-technical","type":"group","x":0,"y":0,"width":1400,"height":1100,"color":"4","label":"Technical"},
-		{"id":"g-design","type":"group","x":1400,"y":80,"width":1400,"height":740,"color":"5","label":"Design"},
-		{"id":"g-market","type":"group","x":1400,"y":1180,"width":1400,"height":520,"color":"2","label":"Market"},
-		{"id":"grp-technical-sensing-and-audio","type":"group","x":360,"y":400,"width":1000,"height":420,"color":"4","label":"Sensing and audio"},
-		{"id":"g-storytelling","type":"group","x":1400,"y":2040,"width":1400,"height":300,"color":"3","label":"Storytelling"},
-		{"id":"grp-technical-build","type":"group","x":360,"y":60,"width":1000,"height":300,"color":"4","label":"Build"},
-		{"id":"grp-user-research-consumer-surveys","type":"group","x":360,"y":1360,"width":1000,"height":300,"color":"6","label":"Consumer surveys"},
-		{"id":"grp-user-research-behaviour","type":"group","x":360,"y":1700,"width":1000,"height":300,"color":"6","label":"Behaviour"},
-		{"id":"grp-user-research-measurement","type":"group","x":360,"y":2260,"width":1000,"height":300,"color":"6","label":"Measurement"},
-		{"id":"grp-technical-ai-capability","type":"group","x":360,"y":860,"width":1000,"height":180,"color":"4","label":"AI capability"},
-		{"id":"grp-design-product","type":"group","x":1760,"y":140,"width":1000,"height":180,"color":"5","label":"Product"},
-		{"id":"grp-design-trust","type":"group","x":1760,"y":360,"width":1000,"height":180,"color":"5","label":"Trust"},
-		{"id":"grp-design-experience","type":"group","x":1760,"y":580,"width":1000,"height":180,"color":"5","label":"Experience"},
-		{"id":"grp-user-research-intentions","type":"group","x":360,"y":2040,"width":1000,"height":180,"color":"6","label":"Intentions"},
-		{"id":"grp-user-research-professional-sample","type":"group","x":360,"y":2600,"width":1000,"height":180,"color":"6","label":"Professional sample"},
-		{"id":"grp-market-players","type":"group","x":1760,"y":1240,"width":1000,"height":180,"color":"2","label":"Players"},
-		{"id":"grp-market-pricing","type":"group","x":1760,"y":1460,"width":1000,"height":180,"color":"2","label":"Pricing"},
-		{"id":"grp-storytelling-inspiration","type":"group","x":1760,"y":2100,"width":1000,"height":180,"color":"3","label":"Inspiration"},
-		{"id":"d-entities-camera-ov2660","type":"text","text":"## [Camera (OV2660)](wiki/entities/camera-ov2660.md)","x":680,"y":430,"width":320,"height":110},
-		{"id":"d-sources-attest-survey","type":"text","text":"## [Attest survey](wiki/sources/attest-survey.md)","x":680,"y":1390,"width":320,"height":80},
-		{"id":"d-sources-hellofresh-survey","type":"text","text":"## [HelloFresh survey](wiki/sources/hellofresh-survey.md)","x":980,"y":1390,"width":320,"height":80},
-		{"id":"d-sources-qs-supplies-survey","type":"text","text":"## [QS Supplies survey](wiki/sources/qs-supplies-survey.md)","x":680,"y":1510,"width":320,"height":80},
-		{"id":"d-sources-statista-survey","type":"text","text":"## [Statista AI survey](wiki/sources/statista-survey.md)","x":980,"y":1510,"width":320,"height":80},
-		{"id":"d-notes-quarter-use-ai-occasionally","type":"text","text":"## [24% use AI occasionally](wiki/notes/quarter-use-ai-occasionally.md)","x":680,"y":1730,"width":320,"height":120},
-		{"id":"d-entities-microphone-inmp441","type":"text","text":"## [Microphone (INMP441)](wiki/entities/microphone-inmp441.md)","x":980,"y":430,"width":320,"height":110},
-		{"id":"d-entities-server-backend","type":"text","text":"## [Server and processing](wiki/entities/server-backend.md)","x":680,"y":890,"width":320,"height":80},
-		{"id":"d-notes-39-percent-never-used-ai","type":"text","text":"## [39% never used AI](wiki/notes/39-percent-never-used-ai.md)","x":980,"y":1730,"width":320,"height":120},
-		{"id":"d-sources-chefi-build-priorities","type":"text","text":"## [Chefi build priorities (17 Nov 2026)](wiki/sources/chefi-build-priorities.md)","x":680,"y":90,"width":320,"height":80},
-		{"id":"d-notes-over-half-have-used-ai","type":"text","text":"## [Over half have used AI](wiki/notes/over-half-have-used-ai.md)","x":680,"y":1850,"width":320,"height":150},
-		{"id":"d-notes-fifth-use-ai-regularly","type":"text","text":"## [~20% use AI regularly](wiki/notes/fifth-use-ai-regularly.md)","x":980,"y":1850,"width":320,"height":150},
-		{"id":"d-notes-two-thirds-expect-to-use","type":"text","text":"## [Two-thirds expect to use](wiki/notes/two-thirds-expect-to-use.md)","x":680,"y":2070,"width":320,"height":120},
-		{"id":"d-notes-adoption-figures","type":"text","text":"## [Adoption mixes use and intent](wiki/notes/adoption-figures.md)","x":680,"y":2290,"width":320,"height":120},
-		{"id":"d-notes-cooking-time-base","type":"text","text":"## [Cooking time needs a base](wiki/notes/cooking-time-base.md)","x":680,"y":2410,"width":320,"height":150},
-		{"id":"d-sources-nestle-young-chefs-survey","type":"text","text":"## [Nestlé young chefs survey](wiki/sources/nestle-young-chefs-survey.md)","x":680,"y":2630,"width":320,"height":80},
-		{"id":"d-sources-chefi-current-build","type":"text","text":"## [Chefi current build (14 Nov 2026)](wiki/sources/chefi-current-build.md)","x":980,"y":90,"width":320,"height":80},
-		{"id":"d-sources-chefi-repo-snapshot","type":"text","text":"## [Chefi repo snapshot](wiki/sources/chefi-repo-snapshot.md)","x":680,"y":210,"width":320,"height":80},
-		{"id":"d-entities-firebeetle-2-board","type":"text","text":"## [FireBeetle 2 board](wiki/entities/firebeetle-2-board.md)","x":980,"y":210,"width":320,"height":80},
-		{"id":"d-entities-imu-6-axis","type":"text","text":"## [Motion sensor (6-axis IMU)](wiki/entities/imu-6-axis.md)","x":680,"y":550,"width":320,"height":80},
-		{"id":"d-entities-current-sensor-ina219","type":"text","text":"## [Power sensor (INA219)](wiki/entities/current-sensor-ina219.md)","x":980,"y":550,"width":320,"height":80},
-		{"id":"d-entities-speaker-max98357a","type":"text","text":"## [Speaker amplifier (MAX98357A)](wiki/entities/speaker-max98357a.md)","x":680,"y":670,"width":320,"height":80},
-		{"id":"d-sources-smartchef-paper","type":"text","text":"## [SmartChef paper](wiki/sources/smartchef-paper.md)","x":980,"y":890,"width":320,"height":80},
-		{"id":"d-entities-chefi","type":"text","text":"## [Chefi](wiki/entities/chefi.md)","x":2080,"y":170,"width":320,"height":80},
-		{"id":"d-notes-third-doubt-accuracy","type":"text","text":"## [A third doubt accuracy](wiki/notes/third-doubt-accuracy.md)","x":2080,"y":390,"width":320,"height":80},
-		{"id":"d-notes-time-saved-on-planning","type":"text","text":"## [Time saved on planning](wiki/notes/time-saved-on-planning.md)","x":2380,"y":170,"width":320,"height":80},
-		{"id":"d-notes-privacy-top-concern","type":"text","text":"## [Privacy is top concern](wiki/notes/privacy-top-concern.md)","x":2380,"y":390,"width":320,"height":80},
-		{"id":"d-notes-7-9-percent-uncomfortable","type":"text","text":"## [7.9% uncomfortable with AI advice](wiki/notes/7-9-percent-uncomfortable.md)","x":2080,"y":610,"width":320,"height":80},
-		{"id":"d-notes-comfort-with-ai-food-help","type":"text","text":"## [Comfort with AI food help](wiki/notes/comfort-with-ai-food-help.md)","x":2380,"y":610,"width":320,"height":80},
-		{"id":"d-entities-nestle-professional","type":"text","text":"## [Nestlé Professional](wiki/entities/nestle-professional.md)","x":2080,"y":1270,"width":320,"height":120},
-		{"id":"d-notes-third-worry-cost","type":"text","text":"## [A third worry about cost](wiki/notes/third-worry-cost.md)","x":2080,"y":1490,"width":320,"height":100},
-		{"id":"d-notes-discovery-top-benefit","type":"text","text":"## [Discovery is top benefit](wiki/notes/discovery-top-benefit.md)","x":2080,"y":2130,"width":320,"height":130},
-		{"id":"d-sources-cambom-time-use","type":"text","text":"## [Cambom time-use data](wiki/sources/cambom-time-use.md)","x":1000,"y":2290,"width":320,"height":120}
-	],
-	"edges":[
-		{"id":"e1","fromNode":"g-technical","fromSide":"left","toNode":"grp-technical-build","toSide":"left"},
-		{"id":"e2","fromNode":"g-technical","fromSide":"left","toNode":"grp-technical-sensing-and-audio","toSide":"left"},
-		{"id":"e3","fromNode":"g-technical","fromSide":"left","toNode":"grp-technical-ai-capability","toSide":"left"},
-		{"id":"e4","fromNode":"g-design","fromSide":"left","toNode":"grp-design-product","toSide":"left"},
-		{"id":"e5","fromNode":"g-design","fromSide":"left","toNode":"grp-design-trust","toSide":"left"},
-		{"id":"e6","fromNode":"g-design","fromSide":"left","toNode":"grp-design-experience","toSide":"left"},
-		{"id":"e7","fromNode":"g-user-research","fromSide":"left","toNode":"grp-user-research-consumer-surveys","toSide":"left"},
-		{"id":"e8","fromNode":"g-user-research","fromSide":"left","toNode":"grp-user-research-behaviour","toSide":"left"},
-		{"id":"e9","fromNode":"g-user-research","fromSide":"left","toNode":"grp-user-research-intentions","toSide":"left"},
-		{"id":"e10","fromNode":"g-user-research","fromSide":"left","toNode":"grp-user-research-measurement","toSide":"left"},
-		{"id":"e11","fromNode":"g-user-research","fromSide":"left","toNode":"grp-user-research-professional-sample","toSide":"left"},
-		{"id":"e12","fromNode":"g-market","fromSide":"left","toNode":"grp-market-players","toSide":"left"},
-		{"id":"e13","fromNode":"g-market","fromSide":"left","toNode":"grp-market-pricing","toSide":"left"},
-		{"id":"e14","fromNode":"g-storytelling","fromSide":"left","toNode":"grp-storytelling-inspiration","toSide":"left"}
-	]
+  "nodes": [
+    {
+      "id": "g-technical",
+      "type": "group",
+      "label": "Technical",
+      "x": 0,
+      "y": 0,
+      "width": 1400,
+      "height": 1100,
+      "color": "4"
+    },
+    {
+      "id": "grp-technical-build",
+      "type": "group",
+      "label": "Build",
+      "x": 360,
+      "y": 60,
+      "width": 1000,
+      "height": 300,
+      "color": "4"
+    },
+    {
+      "id": "d-sources-chefi-build-priorities",
+      "type": "text",
+      "text": "## [Chefi build priorities (17 Nov 2026)](wiki/sources/chefi-build-priorities.md)",
+      "x": 680,
+      "y": 90,
+      "width": 320,
+      "height": 80
+    },
+    {
+      "id": "d-sources-chefi-current-build",
+      "type": "text",
+      "text": "## [Chefi current build (14 Nov 2026)](wiki/sources/chefi-current-build.md)",
+      "x": 980,
+      "y": 90,
+      "width": 320,
+      "height": 80
+    },
+    {
+      "id": "d-sources-chefi-repo-snapshot",
+      "type": "text",
+      "text": "## [Chefi repo snapshot](wiki/sources/chefi-repo-snapshot.md)",
+      "x": 680,
+      "y": 210,
+      "width": 320,
+      "height": 80
+    },
+    {
+      "id": "d-entities-firebeetle-2-board",
+      "type": "text",
+      "text": "## [FireBeetle 2 board](wiki/entities/firebeetle-2-board.md)",
+      "x": 980,
+      "y": 210,
+      "width": 320,
+      "height": 80
+    },
+    {
+      "id": "grp-technical-sensing-and-audio",
+      "type": "group",
+      "label": "Sensing and audio",
+      "x": 360,
+      "y": 400,
+      "width": 1000,
+      "height": 420,
+      "color": "4"
+    },
+    {
+      "id": "d-entities-camera-ov2660",
+      "type": "text",
+      "text": "## [Camera (OV2660)](wiki/entities/camera-ov2660.md)",
+      "x": 680,
+      "y": 430,
+      "width": 320,
+      "height": 80
+    },
+    {
+      "id": "d-entities-microphone-inmp441",
+      "type": "text",
+      "text": "## [Microphone (INMP441)](wiki/entities/microphone-inmp441.md)",
+      "x": 980,
+      "y": 430,
+      "width": 320,
+      "height": 80
+    },
+    {
+      "id": "d-entities-imu-6-axis",
+      "type": "text",
+      "text": "## [Motion sensor (6-axis IMU)](wiki/entities/imu-6-axis.md)",
+      "x": 680,
+      "y": 550,
+      "width": 320,
+      "height": 80
+    },
+    {
+      "id": "d-entities-current-sensor-ina219",
+      "type": "text",
+      "text": "## [Power sensor (INA219)](wiki/entities/current-sensor-ina219.md)",
+      "x": 980,
+      "y": 550,
+      "width": 320,
+      "height": 80
+    },
+    {
+      "id": "d-entities-speaker-max98357a",
+      "type": "text",
+      "text": "## [Speaker amplifier (MAX98357A)](wiki/entities/speaker-max98357a.md)",
+      "x": 680,
+      "y": 670,
+      "width": 320,
+      "height": 80
+    },
+    {
+      "id": "grp-technical-ai-capability",
+      "type": "group",
+      "label": "AI capability",
+      "x": 360,
+      "y": 860,
+      "width": 1000,
+      "height": 180,
+      "color": "4"
+    },
+    {
+      "id": "d-entities-server-backend",
+      "type": "text",
+      "text": "## [Server and processing](wiki/entities/server-backend.md)",
+      "x": 680,
+      "y": 890,
+      "width": 320,
+      "height": 80
+    },
+    {
+      "id": "d-sources-smartchef-paper",
+      "type": "text",
+      "text": "## [SmartChef paper](wiki/sources/smartchef-paper.md)",
+      "x": 980,
+      "y": 890,
+      "width": 320,
+      "height": 80
+    },
+    {
+      "id": "g-design",
+      "type": "group",
+      "label": "Design",
+      "x": 3200,
+      "y": 0,
+      "width": 1400,
+      "height": 740,
+      "color": "5"
+    },
+    {
+      "id": "grp-design-product",
+      "type": "group",
+      "label": "Product",
+      "x": 3560,
+      "y": 60,
+      "width": 1000,
+      "height": 180,
+      "color": "5"
+    },
+    {
+      "id": "d-entities-chefi",
+      "type": "text",
+      "text": "## [Chefi](wiki/entities/chefi.md)",
+      "x": 3880,
+      "y": 90,
+      "width": 320,
+      "height": 80
+    },
+    {
+      "id": "d-notes-time-saved-on-planning",
+      "type": "text",
+      "text": "## [Time saved on planning](wiki/notes/time-saved-on-planning.md)",
+      "x": 4180,
+      "y": 90,
+      "width": 320,
+      "height": 80
+    },
+    {
+      "id": "grp-design-trust",
+      "type": "group",
+      "label": "Trust",
+      "x": 3560,
+      "y": 280,
+      "width": 1000,
+      "height": 180,
+      "color": "5"
+    },
+    {
+      "id": "d-notes-third-doubt-accuracy",
+      "type": "text",
+      "text": "## [A third doubt accuracy](wiki/notes/third-doubt-accuracy.md)",
+      "x": 3880,
+      "y": 310,
+      "width": 320,
+      "height": 80
+    },
+    {
+      "id": "d-notes-privacy-top-concern",
+      "type": "text",
+      "text": "## [Privacy is top concern](wiki/notes/privacy-top-concern.md)",
+      "x": 4180,
+      "y": 310,
+      "width": 320,
+      "height": 80
+    },
+    {
+      "id": "grp-design-experience",
+      "type": "group",
+      "label": "Experience",
+      "x": 3560,
+      "y": 500,
+      "width": 1000,
+      "height": 180,
+      "color": "5"
+    },
+    {
+      "id": "d-notes-7-9-percent-uncomfortable",
+      "type": "text",
+      "text": "## [7.9% uncomfortable with AI advice](wiki/notes/7-9-percent-uncomfortable.md)",
+      "x": 3880,
+      "y": 530,
+      "width": 320,
+      "height": 80
+    },
+    {
+      "id": "d-notes-comfort-with-ai-food-help",
+      "type": "text",
+      "text": "## [Comfort with AI food help](wiki/notes/comfort-with-ai-food-help.md)",
+      "x": 4180,
+      "y": 530,
+      "width": 320,
+      "height": 80
+    },
+    {
+      "id": "g-user-research",
+      "type": "group",
+      "label": "User research",
+      "x": 0,
+      "y": 1300,
+      "width": 1400,
+      "height": 1540,
+      "color": "6"
+    },
+    {
+      "id": "grp-user-research-consumer-surveys",
+      "type": "group",
+      "label": "Consumer surveys",
+      "x": 360,
+      "y": 1360,
+      "width": 1000,
+      "height": 300,
+      "color": "6"
+    },
+    {
+      "id": "d-sources-attest-survey",
+      "type": "text",
+      "text": "## [Attest survey](wiki/sources/attest-survey.md)",
+      "x": 680,
+      "y": 1390,
+      "width": 320,
+      "height": 80
+    },
+    {
+      "id": "d-sources-hellofresh-survey",
+      "type": "text",
+      "text": "## [HelloFresh survey](wiki/sources/hellofresh-survey.md)",
+      "x": 980,
+      "y": 1390,
+      "width": 320,
+      "height": 80
+    },
+    {
+      "id": "d-sources-qs-supplies-survey",
+      "type": "text",
+      "text": "## [QS Supplies survey](wiki/sources/qs-supplies-survey.md)",
+      "x": 680,
+      "y": 1510,
+      "width": 320,
+      "height": 80
+    },
+    {
+      "id": "d-sources-statista-survey",
+      "type": "text",
+      "text": "## [Statista AI survey](wiki/sources/statista-survey.md)",
+      "x": 980,
+      "y": 1510,
+      "width": 320,
+      "height": 80
+    },
+    {
+      "id": "grp-user-research-behaviour",
+      "type": "group",
+      "label": "Behaviour",
+      "x": 360,
+      "y": 1700,
+      "width": 1000,
+      "height": 300,
+      "color": "6"
+    },
+    {
+      "id": "d-notes-quarter-use-ai-occasionally",
+      "type": "text",
+      "text": "## [24% use AI occasionally](wiki/notes/quarter-use-ai-occasionally.md)",
+      "x": 680,
+      "y": 1730,
+      "width": 320,
+      "height": 80
+    },
+    {
+      "id": "d-notes-39-percent-never-used-ai",
+      "type": "text",
+      "text": "## [39% never used AI](wiki/notes/39-percent-never-used-ai.md)",
+      "x": 980,
+      "y": 1730,
+      "width": 320,
+      "height": 80
+    },
+    {
+      "id": "d-notes-over-half-have-used-ai",
+      "type": "text",
+      "text": "## [Over half have used AI](wiki/notes/over-half-have-used-ai.md)",
+      "x": 680,
+      "y": 1850,
+      "width": 320,
+      "height": 80
+    },
+    {
+      "id": "d-notes-fifth-use-ai-regularly",
+      "type": "text",
+      "text": "## [~20% use AI regularly](wiki/notes/fifth-use-ai-regularly.md)",
+      "x": 980,
+      "y": 1850,
+      "width": 320,
+      "height": 80
+    },
+    {
+      "id": "grp-user-research-intentions",
+      "type": "group",
+      "label": "Intentions",
+      "x": 360,
+      "y": 2040,
+      "width": 1000,
+      "height": 180,
+      "color": "6"
+    },
+    {
+      "id": "d-notes-two-thirds-expect-to-use",
+      "type": "text",
+      "text": "## [Two-thirds expect to use](wiki/notes/two-thirds-expect-to-use.md)",
+      "x": 680,
+      "y": 2070,
+      "width": 320,
+      "height": 80
+    },
+    {
+      "id": "grp-user-research-measurement",
+      "type": "group",
+      "label": "Measurement",
+      "x": 360,
+      "y": 2260,
+      "width": 1000,
+      "height": 300,
+      "color": "6"
+    },
+    {
+      "id": "d-notes-adoption-figures",
+      "type": "text",
+      "text": "## [Adoption mixes use and intent](wiki/notes/adoption-figures.md)",
+      "x": 680,
+      "y": 2290,
+      "width": 320,
+      "height": 80
+    },
+    {
+      "id": "d-sources-cambom-time-use",
+      "type": "text",
+      "text": "## [Cambom time-use data](wiki/sources/cambom-time-use.md)",
+      "x": 980,
+      "y": 2290,
+      "width": 320,
+      "height": 80
+    },
+    {
+      "id": "d-notes-cooking-time-base",
+      "type": "text",
+      "text": "## [Cooking time needs a base](wiki/notes/cooking-time-base.md)",
+      "x": 680,
+      "y": 2410,
+      "width": 320,
+      "height": 80
+    },
+    {
+      "id": "grp-user-research-professional-sample",
+      "type": "group",
+      "label": "Professional sample",
+      "x": 360,
+      "y": 2600,
+      "width": 1000,
+      "height": 180,
+      "color": "6"
+    },
+    {
+      "id": "d-sources-nestle-young-chefs-survey",
+      "type": "text",
+      "text": "## [Nestlé young chefs survey](wiki/sources/nestle-young-chefs-survey.md)",
+      "x": 680,
+      "y": 2630,
+      "width": 320,
+      "height": 80
+    },
+    {
+      "id": "g-market",
+      "type": "group",
+      "label": "Market",
+      "x": 3200,
+      "y": 1300,
+      "width": 1400,
+      "height": 520,
+      "color": "2"
+    },
+    {
+      "id": "grp-market-players",
+      "type": "group",
+      "label": "Players",
+      "x": 3560,
+      "y": 1360,
+      "width": 1000,
+      "height": 180,
+      "color": "2"
+    },
+    {
+      "id": "d-entities-nestle-professional",
+      "type": "text",
+      "text": "## [Nestlé Professional](wiki/entities/nestle-professional.md)",
+      "x": 3880,
+      "y": 1390,
+      "width": 320,
+      "height": 80
+    },
+    {
+      "id": "grp-market-pricing",
+      "type": "group",
+      "label": "Pricing",
+      "x": 3560,
+      "y": 1580,
+      "width": 1000,
+      "height": 180,
+      "color": "2"
+    },
+    {
+      "id": "d-notes-third-worry-cost",
+      "type": "text",
+      "text": "## [A third worry about cost](wiki/notes/third-worry-cost.md)",
+      "x": 3880,
+      "y": 1610,
+      "width": 320,
+      "height": 80
+    },
+    {
+      "id": "g-storytelling",
+      "type": "group",
+      "label": "Storytelling",
+      "x": 1600,
+      "y": 3040,
+      "width": 1400,
+      "height": 300,
+      "color": "3"
+    },
+    {
+      "id": "grp-storytelling-inspiration",
+      "type": "group",
+      "label": "Inspiration",
+      "x": 1960,
+      "y": 3100,
+      "width": 1000,
+      "height": 180,
+      "color": "3"
+    },
+    {
+      "id": "d-notes-discovery-top-benefit",
+      "type": "text",
+      "text": "## [Discovery is top benefit](wiki/notes/discovery-top-benefit.md)",
+      "x": 2280,
+      "y": 3130,
+      "width": 320,
+      "height": 80
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "fromNode": "g-technical",
+      "fromSide": "left",
+      "toNode": "grp-technical-build",
+      "toSide": "left"
+    },
+    {
+      "id": "e2",
+      "fromNode": "g-technical",
+      "fromSide": "left",
+      "toNode": "grp-technical-sensing-and-audio",
+      "toSide": "left"
+    },
+    {
+      "id": "e3",
+      "fromNode": "g-technical",
+      "fromSide": "left",
+      "toNode": "grp-technical-ai-capability",
+      "toSide": "left"
+    },
+    {
+      "id": "e4",
+      "fromNode": "g-design",
+      "fromSide": "left",
+      "toNode": "grp-design-product",
+      "toSide": "left"
+    },
+    {
+      "id": "e5",
+      "fromNode": "g-design",
+      "fromSide": "left",
+      "toNode": "grp-design-trust",
+      "toSide": "left"
+    },
+    {
+      "id": "e6",
+      "fromNode": "g-design",
+      "fromSide": "left",
+      "toNode": "grp-design-experience",
+      "toSide": "left"
+    },
+    {
+      "id": "e7",
+      "fromNode": "g-user-research",
+      "fromSide": "left",
+      "toNode": "grp-user-research-consumer-surveys",
+      "toSide": "left"
+    },
+    {
+      "id": "e8",
+      "fromNode": "g-user-research",
+      "fromSide": "left",
+      "toNode": "grp-user-research-behaviour",
+      "toSide": "left"
+    },
+    {
+      "id": "e9",
+      "fromNode": "g-user-research",
+      "fromSide": "left",
+      "toNode": "grp-user-research-intentions",
+      "toSide": "left"
+    },
+    {
+      "id": "e10",
+      "fromNode": "g-user-research",
+      "fromSide": "left",
+      "toNode": "grp-user-research-measurement",
+      "toSide": "left"
+    },
+    {
+      "id": "e11",
+      "fromNode": "g-user-research",
+      "fromSide": "left",
+      "toNode": "grp-user-research-professional-sample",
+      "toSide": "left"
+    },
+    {
+      "id": "e12",
+      "fromNode": "g-market",
+      "fromSide": "left",
+      "toNode": "grp-market-players",
+      "toSide": "left"
+    },
+    {
+      "id": "e13",
+      "fromNode": "g-market",
+      "fromSide": "left",
+      "toNode": "grp-market-pricing",
+      "toSide": "left"
+    },
+    {
+      "id": "e14",
+      "fromNode": "g-storytelling",
+      "fromSide": "left",
+      "toNode": "grp-storytelling-inspiration",
+      "toSide": "left"
+    }
+  ]
 }

@@ -179,3 +179,7 @@ Kinds: `ingest` · `query` · `synthesis` · `lint` · `schema`
 
 ## [2026-11-19] schema | Sector layout reverted to the grid
 - **tools/build_sector_tree.py:** reverted the compact layout to the earlier grid (the state before the last change).
+
+## [2026-11-19] sync | Knowledge base committed to the Chefi repo (local only)
+- **tools/sync_knowledge.py:** copies the vault into the repo's knowledge/ folder and writes knowledge/README.md (how to navigate, labels, sector and page list).
+- **repo:** committed locally in the repo clone (scratchpad/chefi-sync), not pushed. Raw sources and app settings are excluded.

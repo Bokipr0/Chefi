@@ -183,3 +183,11 @@ Kinds: `ingest` · `query` · `synthesis` · `lint` · `schema`
 ## [2026-11-19] sync | Knowledge base committed to the Chefi repo (local only)
 - **tools/sync_knowledge.py:** copies the vault into the repo's knowledge/ folder and writes knowledge/README.md (how to navigate, labels, sector and page list).
 - **repo:** committed locally in the repo clone (scratchpad/chefi-sync), not pushed. Raw sources and app settings are excluded.
+
+## [2026-11-19] sync | Sync hook added; push not done
+- **hook:** tools/sync_knowledge.py runs after each Edit, Write and Bash tool call and refreshes knowledge/ in the local repo clone. It does not commit or push.
+- **push:** not done. github.com/Bokipr0/Chefi is public, and the knowledge base includes personal research, so the push waits for explicit approval.
+
+## [2026-11-19] sync | Knowledge base pushed to public repo
+- **repo:** github.com/Bokipr0/Chefi, branch main, commits 270103e and 6fe2f1e (knowledge/ folder). Public, approved by Lior.
+- **future syncs:** the hook refreshes the local clone; commit and push again after changes.

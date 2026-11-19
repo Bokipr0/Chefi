@@ -1,0 +1,229 @@
+{
+  "nodes": [
+    {
+      "id": "g-technical",
+      "type": "group",
+      "label": "Technical",
+      "x": 0,
+      "y": 0,
+      "width": 1400,
+      "height": 520,
+      "color": "4"
+    },
+    {
+      "id": "grp-technical-build",
+      "type": "group",
+      "label": "Build",
+      "x": 360,
+      "y": 60,
+      "width": 1000,
+      "height": 180,
+      "color": "4"
+    },
+    {
+      "id": "d-questions-battery-in-scope",
+      "type": "text",
+      "text": "## [Is the battery in scope?](wiki/questions/battery-in-scope.md)",
+      "x": 680,
+      "y": 90,
+      "width": 320,
+      "height": 80
+    },
+    {
+      "id": "grp-technical-ai-capability",
+      "type": "group",
+      "label": "AI capability",
+      "x": 360,
+      "y": 280,
+      "width": 1000,
+      "height": 180,
+      "color": "4"
+    },
+    {
+      "id": "d-notes-ai-recipes-skip-steps",
+      "type": "text",
+      "text": "## [AI recipes skip steps](wiki/notes/ai-recipes-skip-steps.md)",
+      "x": 680,
+      "y": 310,
+      "width": 320,
+      "height": 80
+    },
+    {
+      "id": "d-notes-photo-to-ingredients",
+      "type": "text",
+      "text": "## [Photo → ingredients](wiki/notes/photo-to-ingredients.md)",
+      "x": 980,
+      "y": 310,
+      "width": 320,
+      "height": 80
+    },
+    {
+      "id": "g-design",
+      "type": "group",
+      "label": "Design",
+      "x": 3200,
+      "y": 0,
+      "width": 1400,
+      "height": 300,
+      "color": "5"
+    },
+    {
+      "id": "grp-design-product",
+      "type": "group",
+      "label": "Product",
+      "x": 3560,
+      "y": 60,
+      "width": 1000,
+      "height": 180,
+      "color": "5"
+    },
+    {
+      "id": "d-notes-chefs-want-ai-for-admin",
+      "type": "text",
+      "text": "## [Chefs want AI for admin](wiki/notes/chefs-want-ai-for-admin.md)",
+      "x": 3880,
+      "y": 90,
+      "width": 320,
+      "height": 80
+    },
+    {
+      "id": "g-problem",
+      "type": "group",
+      "label": "Problem",
+      "x": 1600,
+      "y": 720,
+      "width": 1400,
+      "height": 640,
+      "color": "1"
+    },
+    {
+      "id": "grp-problem-core",
+      "type": "group",
+      "label": "Core",
+      "x": 1960,
+      "y": 780,
+      "width": 1000,
+      "height": 180,
+      "color": "1"
+    },
+    {
+      "id": "d-syntheses-core-problem",
+      "type": "text",
+      "text": "## [Core problem](wiki/syntheses/core-problem.md)",
+      "x": 2280,
+      "y": 810,
+      "width": 320,
+      "height": 80
+    },
+    {
+      "id": "grp-problem-open-questions",
+      "type": "group",
+      "label": "Open questions",
+      "x": 1960,
+      "y": 1000,
+      "width": 1000,
+      "height": 300,
+      "color": "1"
+    },
+    {
+      "id": "d-questions-judge-doneness",
+      "type": "text",
+      "text": "## [How to judge doneness?](wiki/questions/judge-doneness.md)",
+      "x": 2280,
+      "y": 1030,
+      "width": 320,
+      "height": 80
+    },
+    {
+      "id": "d-questions-pro-demand-to-home",
+      "type": "text",
+      "text": "## [Pro demand → home?](wiki/questions/pro-demand-to-home.md)",
+      "x": 2580,
+      "y": 1030,
+      "width": 320,
+      "height": 80
+    },
+    {
+      "id": "d-questions-which-ai-service",
+      "type": "text",
+      "text": "## [Which AI service?](wiki/questions/which-ai-service.md)",
+      "x": 2280,
+      "y": 1150,
+      "width": 320,
+      "height": 80
+    },
+    {
+      "id": "g-market",
+      "type": "group",
+      "label": "Market",
+      "x": 3200,
+      "y": 720,
+      "width": 1400,
+      "height": 300,
+      "color": "2"
+    },
+    {
+      "id": "grp-market-players",
+      "type": "group",
+      "label": "Players",
+      "x": 3560,
+      "y": 780,
+      "width": 1000,
+      "height": 180,
+      "color": "2"
+    },
+    {
+      "id": "d-syntheses-competitors",
+      "type": "text",
+      "text": "## [Competitors](wiki/syntheses/competitors.md)",
+      "x": 3880,
+      "y": 810,
+      "width": 320,
+      "height": 80
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "fromNode": "g-technical",
+      "fromSide": "left",
+      "toNode": "grp-technical-build",
+      "toSide": "left"
+    },
+    {
+      "id": "e2",
+      "fromNode": "g-technical",
+      "fromSide": "left",
+      "toNode": "grp-technical-ai-capability",
+      "toSide": "left"
+    },
+    {
+      "id": "e3",
+      "fromNode": "g-design",
+      "fromSide": "left",
+      "toNode": "grp-design-product",
+      "toSide": "left"
+    },
+    {
+      "id": "e4",
+      "fromNode": "g-problem",
+      "fromSide": "left",
+      "toNode": "grp-problem-core",
+      "toSide": "left"
+    },
+    {
+      "id": "e5",
+      "fromNode": "g-problem",
+      "fromSide": "left",
+      "toNode": "grp-problem-open-questions",
+      "toSide": "left"
+    },
+    {
+      "id": "e6",
+      "fromNode": "g-market",
+      "fromSide": "left",
+      "toNode": "grp-market-players",
+      "toSide": "left"
+    }
+  ]
+}
